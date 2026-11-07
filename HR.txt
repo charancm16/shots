@@ -1,0 +1,317 @@
+# 2-Mark Q&A: HRM, HRD, Project Management & Project Implementation
+
+*Each unit has 15 questions. Each answer is short enough for a 2-mark exam response, with a simple example.*
+
+## UNIT I: HRM
+
+**Q1. What is HRM?**
+HRM is the management of people in an organization. It covers hiring, training, appraising, rewarding, and retaining employees.
+*Example: A company hires, trains, and pays its staff through an HR department.*
+
+**Q2. What is the nature of HRM?**
+HRM is people-centred, continuous, pervasive across the organization, and strategic. It aims to meet both employee needs and organizational goals.
+*Example: Good working conditions keep employees motivated and productive.*
+
+**Q3. What is the scope of HRM?**
+The scope includes HR planning, recruitment, selection, training, compensation, welfare, and industrial relations.
+*Example: A company's HR team handles salary and leave policies along with hiring.*
+
+**Q4. What are the functions of HRM?**
+The managerial functions are planning, organizing, directing, and controlling. The operative functions are procurement, development, compensation, integration, and maintenance.
+*Example: Hiring new staff is a procurement function; paying salaries is a compensation function.*
+
+**Q5. What is the role of an HR manager?**
+An HR manager acts as an advisor, administrator, change agent, and employee champion.
+*Example: An HR manager designs a new leave policy and explains it to employees.*
+
+**Q6. What are the emerging trends in HRM?**
+Current trends include remote work, AI-based recruitment, employer branding, diversity and inclusion, and the gig workforce.
+*Example: Many companies now use online video interviews to hire candidates in other cities.*
+
+**Q7. What is E-HRM?**
+E-HRM is the use of internet and IT tools to perform HR functions.
+*Example: Employees check payslips and apply for leave through an online self-service portal.*
+
+**Q8. What is an HR audit?**
+An HR audit is a systematic review of HR policies, practices, and records to check their effectiveness.
+*Example: Auditing the recruitment process to see whether hiring takes too long.*
+
+**Q9. What are the ethical aspects of HRM?**
+Ethical HRM ensures fairness, non-discrimination, honest appraisals, and privacy of employee data.
+*Example: Promotions are based on merit, not favouritism.*
+
+**Q10. What is HR planning and demand forecasting?**
+HR planning is forecasting future manpower needs and matching them with the available workforce. Demand forecasting estimates how many employees, with what skills, the organization will need.
+*Example: If sales are expected to grow 20%, the company may need about 20% more staff.*
+
+**Q11. What is supply forecasting of HR?**
+Supply forecasting estimates the number of employees available internally and externally, after accounting for retirements, resignations, and promotions.
+*Example: If 10 employees are retiring next year, the supply of staff drops by 10.*
+
+**Q12. What is job design?**
+Job design is deciding the tasks, duties, and responsibilities that make up a job.
+*Example: A customer-support job may combine answering calls, handling complaints, and updating records.*
+
+**Q13. What is recruitment?**
+Recruitment is the process of attracting a pool of suitable candidates for a job.
+*Example: Posting a job advertisement on a job portal.*
+
+**Q14. What are the sources of recruitment?**
+Internal sources include promotions and transfers. External sources include campus placements, advertisements, employment agencies, and employee referrals.
+*Example: A company promotes a senior clerk to supervisor (internal) or hires a fresh graduate from a campus drive (external).*
+
+**Q15. What is selection and what is the selection procedure?**
+Selection is choosing the best candidate from the applicants. The usual steps are application screening, written test, interview, medical examination, reference check, and appointment.
+*Example: A candidate who passes the written test and interview receives an offer letter.*
+
+## UNIT II: HRD, Training, Appraisal & Counselling
+
+**Q1. What is HRD?**
+HRD is the process of developing employees' skills, knowledge, and attitudes for both personal and organizational growth.
+*Example: A leadership development program for future managers.*
+
+**Q2. What is HR accounting?**
+HR accounting measures the value of employees, or the cost of hiring and training them, in financial terms.
+*Example: Treating the cost of a training program as an investment rather than an expense.*
+
+**Q3. What are the models of HRD?**
+Common HRD models include the training model (focuses on job skills), the development model (focuses on long-term growth), and the organization development model (focuses on change and culture).
+*Example: A short skills course is a training model activity; a multi-year leadership track is a development model activity.*
+
+**Q4. What are the objectives of HRD?**
+The objectives are to improve employee skills, build capabilities for future roles, improve job satisfaction, and support organizational goals.
+*Example: A company runs a skills program so its staff can handle new software in the next year.*
+
+**Q5. What is training?**
+Training teaches employees specific skills needed to perform their current job better.
+*Example: Safety training for factory workers.*
+
+**Q6. What is development?**
+Development is a broader, long-term process that prepares employees for future roles and responsibilities.
+*Example: A management development program that prepares a team lead to become a manager.*
+
+**Q7. What is the difference between training and development?**
+Training is short-term and job-specific. Development is long-term and broader in scope.
+*Example: Learning a new software tool is training; preparing for a managerial role is development.*
+
+**Q8. What is the importance of training?**
+Training improves productivity, reduces errors and accidents, prepares employees for change, and raises job satisfaction.
+*Example: After a safety training session, a factory sees fewer workplace accidents.*
+
+**Q9. What are the methods of training?**
+On-the-job methods include coaching, job rotation, and apprenticeship. Off-the-job methods include lectures, simulation, case studies, role play, and e-learning.
+*Example: A new employee learns machine operation by shadowing a senior worker (on-the-job).*
+
+**Q10. What is performance appraisal?**
+Performance appraisal is the systematic evaluation of an employee's work performance against set standards.
+*Example: A manager reviews an employee's sales targets at the end of the year.*
+
+**Q11. What is the importance of performance appraisal?**
+It helps in deciding promotions, salary increases, and training needs, and it gives employees feedback on their work.
+*Example: An employee who consistently exceeds targets may be considered for promotion.*
+
+**Q12. What are the methods of performance appraisal?**
+Common methods include the graphic rating scale, essay method, critical incident method, management by objectives (MBO), and 360-degree appraisal.
+*Example: In MBO, the employee and manager agree on goals, and performance is measured against them.*
+
+**Q13. What is career development?**
+Career development is the planned growth of an employee's career through training, promotions, and new assignments.
+*Example: A software engineer moves from developer to team lead to project manager over several years.*
+
+**Q14. What is counselling in HRM?**
+Counselling helps employees solve personal or work-related problems so they can perform better.
+*Example: A counsellor helps an employee manage stress caused by heavy workload.*
+
+**Q15. What is group interaction?**
+Group interaction is discussion and collaboration among team members to solve problems or share ideas.
+*Example: Brainstorming sessions where team members propose solutions to a project issue.*
+
+## UNIT III: Project Management Basics
+
+**Q1. What is a project?**
+A project is a temporary effort with a defined start, end, objective, and unique output.
+*Example: Building a new bridge or launching a mobile app.*
+
+**Q2. What is project management?**
+Project management is planning, organizing, and controlling resources to finish a project within time, cost, and scope limits.
+*Example: A project manager tracks a software build to make sure it is delivered on schedule.*
+
+**Q3. What is resource management in projects?**
+It is the efficient allocation of manpower, money, materials, and equipment to project activities.
+*Example: Assigning two developers and a tester to a module based on their availability.*
+
+**Q4. What is the project environment?**
+It is the set of internal and external factors that affect a project, such as government policy, market conditions, and stakeholders.
+*Example: A new tax rule can change the cost of a construction project.*
+
+**Q5. What are the types of projects?**
+Common types include construction, IT/software, research and development, event, and maintenance projects.
+*Example: Organizing a college fest is an event project.*
+
+**Q6. What is a project network?**
+A project network is a diagram showing project activities and the dependencies between them. Techniques used include PERT and CPM.
+*Example: Foundation work must finish before walls can be built, so the two are linked in the network.*
+
+**Q7. What is a DPR?**
+A Detailed Project Report (DPR) is a document that gives full project details, including feasibility, cost, schedule, and technical design.
+*Example: A DPR is submitted to a bank to get a loan for a factory.*
+
+**Q8. What is the project life cycle?**
+The project life cycle has five stages: initiation, planning, execution, monitoring and control, and closure.
+*Example: A software project moves from requirement gathering (planning) to coding (execution) to final delivery (closure).*
+
+**Q9. What is a project proposal?**
+A project proposal is a document presenting a project idea to sponsors, with its objectives, scope, timeline, and budget.
+*Example: A startup pitches its app idea to investors with a budget and timeline.*
+
+**Q10. How is project progress monitored?**
+Progress is tracked by comparing actual performance with the plan, using tools such as Gantt charts and milestone reviews.
+*Example: If a task planned for 5 days takes 8, the manager adds resources or adjusts the schedule.*
+
+**Q11. What is project appraisal?**
+Project appraisal is the evaluation of a project's technical, financial, economic, and social feasibility before approval.
+*Example: Checking whether a project's expected returns justify its investment, using NPV or IRR.*
+
+**Q12. What is project selection?**
+Project selection is choosing the best project from several options, based on returns, risk, and strategic fit.
+*Example: A company picks the project with the higher expected profit and lower risk.*
+
+**Q13. What is the 80-20 rule?**
+The 80-20 rule (Pareto principle) says that roughly 80% of results come from 20% of causes.
+*Example: 20% of customers may generate 80% of a business's revenue.*
+
+**Q14. What is production technology?**
+Production technology is the set of methods and processes used to convert inputs into finished goods.
+*Example: An assembly line is a mass production technology, while a job shop handles custom orders.*
+
+**Q15. What is a communication matrix?**
+A communication matrix is a table that shows who needs what information, how often, and through which channel.
+*Example: The client receives weekly progress reports by email, while the team holds daily stand-up meetings.*
+
+## UNIT IV: Project Types and Their Management Challenges
+
+**Q1. Why do different project types need different management strategies?**
+Each project type has its own risks, timelines, and stakeholders, so one approach does not fit all.
+*Example: A construction project needs strict safety control, while a software project needs flexibility for changing requirements.*
+
+**Q2. What are the challenges and strategies for construction projects?**
+Challenges include weather delays, safety risks, and cost overruns. Strategies include detailed scheduling and risk planning.
+*Example: Keeping a buffer period in the schedule for monsoon delays.*
+
+**Q3. What are the challenges and strategies for IT/software projects?**
+Challenges include changing requirements and integration issues. Strategies include Agile methods and frequent client reviews.
+*Example: Releasing a working module every two weeks to get early feedback.*
+
+**Q4. What are the challenges and strategies for R&D projects?**
+Challenges include high uncertainty and unpredictable results. Strategies include stage-gate reviews and flexible budgets.
+*Example: Releasing funds in stages only when the previous stage shows promising results.*
+
+**Q5. What are the challenges and strategies for event projects?**
+Challenges include tight deadlines and coordinating many vendors. Strategies include checklists and firm vendor contracts.
+*Example: A wedding planner uses a timeline checklist for caterers, decorators, and venues.*
+
+**Q6. What are the challenges and strategies for infrastructure projects?**
+Challenges include government approvals, land acquisition, and many stakeholders. Strategies include early stakeholder engagement and clear documentation.
+*Example: Holding public consultations before starting a road project.*
+
+**Q7. What are the challenges and strategies for maintenance projects?**
+Challenges include resource conflicts and unplanned breakdowns. Strategies include preventive scheduling and priority setting.
+*Example: Scheduling machine servicing during off-peak hours to avoid stopping production.*
+
+**Q8. What are the challenges and strategies for manufacturing projects?**
+Challenges include machine breakdowns, quality defects, and supply delays. Strategies include quality checks at each stage and buffer inventory.
+*Example: A factory sets up a line inspection at each assembly step to catch defects early.*
+
+**Q9. What are the challenges and strategies for marketing campaign projects?**
+Challenges include tight launch dates, shifting audience response, and budget control. Strategies include phased launches and regular performance tracking.
+*Example: Testing an advertisement with a small audience before a full national launch.*
+
+**Q10. What are the challenges and strategies for healthcare projects?**
+Challenges include strict regulations, patient safety, and specialized staffing. Strategies include compliance checks and staged rollouts.
+*Example: Introducing a new hospital software system in one ward before the whole hospital.*
+
+**Q11. What are the challenges and strategies for education projects?**
+Challenges include limited budgets, staff training, and academic calendar constraints. Strategies include planning around term schedules and pilot programs.
+*Example: Launching a new online learning platform during the summer break.*
+
+**Q12. What are the challenges and strategies for government and welfare projects?**
+Challenges include policy changes, bureaucratic approvals, and public accountability. Strategies include transparent reporting and close monitoring of budgets.
+*Example: Publishing progress reports for a rural water supply scheme so citizens can track it.*
+
+**Q13. What are the challenges and strategies for film and media projects?**
+Challenges include creative changes, location problems, and tight shooting schedules. Strategies include detailed shot planning and contingency days.
+*Example: Booking a backup location in case of bad weather during an outdoor shoot.*
+
+**Q14. What are the challenges and strategies for agricultural projects?**
+Challenges include weather dependence, seasonal timing, and input supply. Strategies include crop calendars and insurance or backup plans.
+*Example: Planning irrigation work before the monsoon season begins.*
+
+**Q15. What are the challenges and strategies for international projects?**
+Challenges include currency risk, cultural differences, and cross-border regulations. Strategies include local partners and hedging against currency changes.
+*Example: A company uses a local partner to handle permits and language issues in a foreign country.*
+
+## UNIT V: Project Implementation and Review
+
+**Q1. What are the forms of project organization?**
+The main forms are functional, project (pure), and matrix organization.
+*Example: In a matrix form, engineers report to both a functional head and a project manager.*
+
+**Q2. What is project planning?**
+Project planning defines tasks, schedules, resources, and budget before execution begins.
+*Example: Listing all tasks for a website launch and assigning each a deadline.*
+
+**Q3. What is project control?**
+Project control compares actual progress with the plan and takes corrective action when deviations occur.
+*Example: If a project is running two weeks late, extra staff are added to catch up.*
+
+**Q4. What are the human aspects of project management?**
+They include motivation, team conflict, leadership, and communication among team members.
+*Example: A manager resolves a disagreement between two team members before it affects delivery.*
+
+**Q5. What are the prerequisites for successful project implementation?**
+Key prerequisites are clear objectives, committed leadership, adequate resources, stakeholder support, and a realistic schedule.
+*Example: A project with unclear goals is likely to fail even with a big budget.*
+
+**Q6. What is project review?**
+Project review is a systematic assessment of a project at milestones or at completion to identify lessons and issues.
+*Example: After finishing a project, the team discusses what went well and what caused delays.*
+
+**Q7. What is performance evaluation of a project?**
+It measures project success against time, cost, quality, and scope targets.
+*Example: A project finished on time but 15% over budget is rated partly successful.*
+
+**Q8. What is abandonment analysis?**
+Abandonment analysis decides whether a project should be stopped because it is no longer viable.
+*Example: A product project is stopped when its expected cost is greater than its expected benefit.*
+
+**Q9. What is project closure?**
+Project closure is the final stage where deliverables are handed over, contracts are closed, and lessons are documented.
+*Example: A software team hands over the final system to the client and signs the acceptance document.*
+
+**Q10. What is the role of a project manager during implementation?**
+The project manager leads the team, coordinates resources, tracks progress, and resolves issues.
+*Example: A project manager holds weekly meetings to check task status and remove blockers.*
+
+**Q11. What is risk management in project implementation?**
+It is identifying, assessing, and responding to risks that could affect the project during execution.
+*Example: Keeping a backup supplier ready in case the main supplier delays materials.*
+
+**Q12. What is change control in projects?**
+Change control is a formal process for reviewing and approving changes to scope, time, or cost.
+*Example: A client requests an extra feature, and the team assesses its cost before accepting it.*
+
+**Q13. What is a project milestone?**
+A milestone is a significant point or event in a project, used to check progress.
+*Example: Completing the design phase is a milestone in a construction project.*
+
+**Q14. What is stakeholder management in projects?**
+It is identifying stakeholders and keeping them informed and involved so their support continues.
+*Example: Sending monthly updates to the client and the funding department.*
+
+**Q15. What are the common causes of project failure?**
+Common causes include unclear objectives, poor planning, weak communication, scope creep, and lack of resources.
+*Example: A project fails when requirements keep changing without any change control.*
+
+---
+
+**Exam tip:** For 2-mark questions, write 2 to 3 clear lines with one example. Start with the definition, then add the example if there is space.

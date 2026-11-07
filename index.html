@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>ShotS — 2-Mark Revision</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="ShotS home"><span class="brand-mark">S</span><span>ShotS<span
+            class="brand-dot">.</span></span></a>
+      <div class="topbar-right">
+        <span class="live-count"><i></i><span id="topProgress">0 / 345 mastered</span></span>
+        <button class="icon-button" id="themeToggle" title="Toggle theme" aria-label="Toggle theme">◐</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="eyebrow"><span class="eyebrow-line"></span> YOUR PERSONAL REVISION SPACE</div>
+        <h1>Small questions.<br><em>Big confidence.</em></h1>
+        <p class="hero-copy">Your 2-mark questions, organized for focused revision.<br>Pick a subject, reveal answers,
+          and keep your progress.</p>
+        <div class="hero-stats">
+          <div><strong id="totalQuestions">345</strong><span>questions loaded</span></div>
+          <div class="stat-divider"></div>
+          <div><strong id="totalUnits">23</strong><span>units available</span></div>
+          <div class="stat-divider"></div>
+          <div><strong>5</strong><span>subjects</span></div>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Question controls">
+        <div class="search-wrap">
+          <span class="search-icon">⌕</span>
+          <input id="searchInput" type="search" placeholder="Search questions, answers, examples…" autocomplete="off">
+          <kbd>⌘ K</kbd>
+        </div>
+        <div class="toolbar-actions">
+          <button class="pill-button" id="favoritesOnly">♡ Favorites</button>
+          <button class="pill-button" id="unmasteredOnly">↻ To revise</button>
+          <button class="pill-button primary" id="randomBtn">Shuffle study ↗</button>
+        </div>
+      </section>
+
+      <section class="subject-section">
+        <div class="section-heading">
+          <div><span class="section-kicker">01 / SUBJECTS</span>
+            <h2>Choose your subject</h2>
+          </div>
+          <span class="section-note">Tap to filter</span>
+        </div>
+        <div class="subject-grid" id="subjectGrid"></div>
+      </section>
+
+      <section class="unit-section">
+        <div class="section-heading">
+          <div><span class="section-kicker">02 / UNITS</span>
+            <h2 id="unitHeading">All units</h2>
+          </div>
+          <span class="section-note" id="unitCount">23 units</span>
+        </div>
+        <div class="unit-chips" id="unitChips"></div>
+      </section>
+
+      <section class="question-section">
+        <div class="question-heading">
+          <div><span class="section-kicker">03 / ACTIVE REVISION</span>
+            <h2 id="questionHeading">All questions</h2>
+          </div>
+          <div class="question-heading-right"><span id="resultCount">345 questions</span><select id="sortSelect"
+              aria-label="Sort questions">
+              <option value="original">Original order</option>
+              <option value="az">Question A–Z</option>
+              <option value="random">Random order</option>
+            </select></div>
+        </div>
+        <div class="progress-wrap">
+          <div class="progress-track">
+            <div id="progressFill"></div>
+          </div><span id="progressLabel">0% mastered</span>
+        </div>
+        <div id="questionList" class="question-list"></div>
+        <div id="emptyState" class="empty-state hidden"><span>⌕</span>
+          <h3>No questions found</h3>
+          <p>Try a different search or clear your filters.</p><button class="pill-button" id="clearFilters">Clear
+            filters</button>
+        </div>
+        <button class="load-more hidden" id="loadMore">Show more questions <span>↓</span></button>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">ShotS<span>.</span></div>
+      <p>Made for your next exam. One question at a time.</p><span class="footer-meta">HTML · CSS · JavaScript</span>
+    </footer>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

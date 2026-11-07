@@ -1,0 +1,257 @@
+# 2-Mark Q&A: Electronic Measurements & Instrumentation
+
+*Each unit has 15 questions. Each answer is short enough for a 2-mark exam response, with a simple example.*
+
+## UNIT I: Measuring Instruments & Digital Instruments
+
+**Q1. What is accuracy?**
+Accuracy is how close a measured value is to the true value.
+*Example: A meter reading 9.9 V when the true voltage is 10 V has high accuracy.*
+
+**Q2. What is precision?**
+Precision is how close repeated measurements are to each other, regardless of the true value.
+*Example: Readings of 9.8 V, 9.8 V, and 9.8 V are precise, even if the true value is 10 V.*
+
+**Q3. What is resolution?**
+Resolution is the smallest change in the input that an instrument can detect and display.
+*Example: A digital meter that shows 0.01 V steps has a resolution of 0.01 V.*
+
+**Q4. What are significant figures?**
+Significant figures are the digits in a measured value that carry meaningful information, including the last uncertain digit.
+*Example: The value 2.50 has three significant figures.*
+
+**Q5. What is an error in measurement?**
+Error is the difference between the measured value and the true value.
+*Example: If the true voltage is 100 V and the meter reads 98 V, the error is -2 V.*
+
+**Q6. What is the construction of a PMMC meter?**
+A PMMC (Permanent Magnet Moving Coil) meter has a coil mounted on a pivot inside the field of a permanent magnet, with a pointer and a spring.
+*Example: The basic D'Arsonval galvanometer is a PMMC meter.*
+
+**Q7. What is the working principle of a PMMC meter?**
+Current through the coil produces a torque that deflects the pointer, and the spring provides a restoring torque. The deflection is proportional to the current.
+*Example: If the current doubles, the pointer deflection roughly doubles.*
+
+**Q8. What is range extension?**
+Range extension increases an instrument's measuring range by adding a shunt resistor for current or a multiplier resistor for voltage.
+*Example: A 1 mA meter with a suitable shunt can be used to measure 10 A.*
+
+**Q9. What is a multirange voltmeter?**
+A multirange voltmeter uses switchable series resistors to give several voltage ranges on one meter.
+*Example: One meter with 0-10 V, 0-50 V, and 0-250 V ranges.*
+
+**Q10. What is a multimeter?**
+A multimeter is an instrument that measures voltage, current, and resistance.
+*Example: Use it to check a battery's voltage and test whether a fuse is continuous.*
+
+**Q11. What is a digital voltmeter (DVM)?**
+A DVM measures voltage and shows the result as a numerical display.
+*Example: A DVM displaying 5.02 V.*
+
+**Q12. What is a V-T type DVM?**
+A V-T DVM converts the input voltage into a time interval, and a counter measures that interval to give a digital reading.
+*Example: A 2 V input produces a longer ramp time than a 1 V input, and the counter shows the difference.*
+
+**Q13. What is a V-F type DVM?**
+A V-F DVM converts the input voltage into a frequency, and a counter counts the pulses over a fixed time.
+*Example: A 1 V input may produce 1000 pulses per second, which the counter displays as 1000 counts.*
+
+**Q14. What is a successive approximation DVM?**
+It finds the digital value by testing bits one at a time, from the most significant to the least significant, using a DAC and a comparator.
+*Example: An 8-bit successive approximation converter needs only 8 comparisons.*
+
+**Q15. What is a digital frequency meter?**
+A digital frequency meter counts the cycles of a signal within a fixed gate time and displays the frequency.
+*Example: Counting 5000 cycles in 1 second gives a reading of 5 kHz.*
+
+## UNIT II: Oscilloscopes
+
+**Q1. What is a CRO?**
+A CRO (Cathode Ray Oscilloscope) displays the waveform of an electrical signal on a screen.
+*Example: Viewing the sine wave output of an audio amplifier.*
+
+**Q2. What are the main blocks of a CRO?**
+The main blocks are the CRT, vertical amplifier, horizontal (time base) system, trigger circuit, and power supply.
+*Example: The vertical amplifier boosts the input signal before it reaches the CRT's deflection plates.*
+
+**Q3. What is the basic principle of a CRT?**
+An electron beam is emitted, accelerated, focused, and deflected onto a phosphor-coated screen, where it produces a glowing spot.
+*Example: The spot traces a waveform as the beam moves across the screen.*
+
+**Q4. What is the construction of a CRT?**
+A CRT has an electron gun, deflection plates, and a phosphor screen, all sealed inside a glass envelope.
+*Example: The inner face of the screen is coated with phosphor that glows when struck by electrons.*
+
+**Q5. What is the role of the vertical amplifier?**
+It amplifies the input signal so that it deflects the beam vertically by a visible amount.
+*Example: A 10 mV signal is amplified so the trace is clearly visible on the screen.*
+
+**Q6. What is the horizontal deflection system?**
+It moves the electron beam horizontally across the screen at a controlled rate, creating a time axis.
+*Example: A setting of 1 ms/div makes each screen division represent 1 millisecond.*
+
+**Q7. What is sweep?**
+Sweep is a linear ramp voltage that moves the beam across the screen at a constant speed.
+*Example: A sawtooth voltage is commonly used to produce the sweep.*
+
+**Q8. What is a trigger pulse?**
+A trigger pulse starts the sweep at the same point on each input cycle, which keeps the waveform stable on the screen.
+*Example: The sweep starts at the zero-crossing of the signal.*
+
+**Q9. What is a delay line?**
+A delay line delays the signal reaching the vertical plates so that the leading edge of the signal is visible.
+*Example: It lets you see the start of a fast pulse that would otherwise be missed.*
+
+**Q10. What is a sync selector circuit?**
+A sync selector chooses the source of the triggering signal, such as internal, line, or external.
+*Example: Selecting "internal" triggers the sweep from the signal being observed.*
+
+**Q11. What is a dual beam CRO?**
+A dual beam CRO uses two electron beams in one CRT to display two signals at the same time.
+*Example: Comparing the input and output of an amplifier on the same screen.*
+
+**Q12. What is a dual trace CRO?**
+A dual trace CRO uses one beam that is switched electronically between two signals to show two traces.
+*Example: Displaying two signals in alternate or chopped mode.*
+
+**Q13. What is a sampling oscilloscope?**
+A sampling oscilloscope takes samples of a repetitive signal at slightly delayed points and builds up the waveform from them.
+*Example: Used to view very high-frequency signals in the GHz range.*
+
+**Q14. What is a digital storage oscilloscope?**
+A digital storage oscilloscope stores the waveform in digital memory so it can be held, viewed, and analysed later.
+*Example: Capturing a single glitch that would be hard to see on an ordinary CRO.*
+
+**Q15. What is a Lissajous figure?**
+A Lissajous figure is the pattern produced when sine signals are applied to the X and Y inputs of a CRO, and it is used to compare frequencies.
+*Example: A circle appears when the two frequencies are equal and the phase difference is 90°.*
+
+## UNIT III: Bridges
+
+**Q1. What is a bridge circuit?**
+A bridge circuit is a null-type circuit that balances two arms to find an unknown component, with zero reading on the detector at balance.
+*Example: The Wheatstone bridge balances to find an unknown resistance.*
+
+**Q2. What is a Wheatstone bridge used for?**
+It is used to measure medium-range resistance accurately.
+*Example: Measuring the value of a 100 Ω resistor.*
+
+**Q3. What is the balance condition of a Wheatstone bridge?**
+At balance, R1/R2 = R3/R4, so the unknown resistance is Rx = R2 × R3 / R1.
+*Example: If R1 = R2 = 100 Ω and R3 = 50 Ω, then Rx = 50 Ω.*
+
+**Q4. What is a Kelvin bridge used for?**
+A Kelvin bridge measures very low resistances (below about 1 Ω) accurately by eliminating lead and contact resistance.
+*Example: Measuring the resistance of a current shunt.*
+
+**Q5. What is a Maxwell's bridge used for?**
+Maxwell's bridge measures an unknown inductance by comparing it with a known capacitance.
+*Example: Measuring the inductance of a coil with a low Q factor.*
+
+**Q6. What is a Hay's bridge used for?**
+Hay's bridge measures inductance of coils with a high Q factor (above about 10).
+*Example: Measuring a high-quality RF coil.*
+
+**Q7. What is an Anderson bridge used for?**
+Anderson's bridge measures self-inductance accurately by comparing it with a standard capacitor and resistors.
+*Example: Finding the self-inductance of a laboratory standard coil.*
+
+**Q8. What is a Schering bridge used for?**
+A Schering bridge measures capacitance and the dielectric loss of insulating materials.
+*Example: Testing the insulation of a power cable.*
+
+**Q9. What is a Wien bridge used for?**
+A Wien bridge measures capacitance and frequency, and it is also used in oscillator circuits.
+*Example: The Wien bridge oscillator produces sine waves in the audio range.*
+
+**Q10. What are the source and detector in a bridge?**
+A DC bridge uses a DC source, and an AC bridge uses an AC source. The detector is usually a galvanometer for DC, and headphones or a CRO for AC.
+*Example: An AC bridge with headphones as detector gives a sound minimum at balance.*
+
+**Q11. What are the common errors in bridge measurements?**
+Common errors include lead resistance, stray capacitance, temperature changes, and detector sensitivity.
+*Example: Long test leads add extra resistance to a Wheatstone bridge reading.*
+
+**Q12. What precautions should be taken while using bridges?**
+Use the correct source and detector, keep the source switched off when not balancing, use short leads, and shield the circuit from stray fields.
+*Example: Switching off the battery prevents the bridge resistors from heating and changing value.*
+
+**Q13. Why is balancing an AC bridge more difficult than a DC bridge?**
+An AC bridge must balance both magnitude and phase, so two adjustments are usually needed.
+*Example: Balancing a Maxwell's bridge requires adjusting both a resistor and a variable element.*
+
+**Q14. Why is the Kelvin bridge preferred for low resistance?**
+It uses a four-terminal connection that separates current and voltage leads, removing the effect of lead resistance.
+*Example: A low-value resistor is measured accurately with the four terminals.*
+
+**Q15. What is the main advantage of bridge methods?**
+Bridges give high accuracy because they measure at a null point, so the result does not depend on the exact source voltage.
+*Example: A small change in battery voltage does not change the balance point.*
+
+## UNIT IV: Signal Generators
+
+**Q1. What is a signal generator?**
+A signal generator is an instrument that produces test signals of known frequency, amplitude, and waveform.
+*Example: Feeding a sine wave into an amplifier to test its response.*
+
+**Q2. What is a fixed AF oscillator?**
+A fixed AF oscillator produces one fixed audio frequency.
+*Example: A 1 kHz test tone used for calibration.*
+
+**Q3. What is a variable AF oscillator?**
+A variable AF oscillator produces audio frequencies that can be adjusted over a range.
+*Example: An RC oscillator with a variable resistor to change its frequency.*
+
+**Q4. What is a standard signal generator?**
+A standard signal generator produces an RF signal with accurately known frequency and output level, controlled by an attenuator.
+*Example: Testing the sensitivity of a radio receiver.*
+
+**Q5. What is a laboratory type signal generator?**
+It is a general-purpose generator that provides sine, square, and triangle outputs over a wide frequency range.
+*Example: Used in college labs for many experiments.*
+
+**Q6. What is an AF sine wave generator?**
+It produces a sine wave in the audio range, usually using an RC or Wien bridge oscillator.
+*Example: A 20 Hz to 20 kHz sine wave used to test audio equipment.*
+
+**Q7. What is a square wave generator?**
+It produces a square wave, often using a multivibrator or a Schmitt trigger.
+*Example: Generating a clock signal to test digital circuits.*
+
+**Q8. What is a function generator?**
+A function generator produces sine, square, and triangle waveforms from a single unit.
+*Example: Testing a filter's response with different waveforms.*
+
+**Q9. What is a pulse generator?**
+A pulse generator produces pulses with adjustable width, period, and rise time.
+*Example: Creating a 10 µs pulse to test a digital counter.*
+
+**Q10. What is a sweep frequency generator?**
+A sweep frequency generator changes its output frequency linearly over a range. It is used with a CRO to view frequency response.
+*Example: Plotting the frequency response of an amplifier on the screen.*
+
+**Q11. What is the difference between a square wave and a pulse generator?**
+A square wave has a 50% duty cycle, while a pulse generator allows the duty cycle to be adjusted.
+*Example: A pulse with a 10% duty cycle is not a square wave.*
+
+**Q12. What is the function of an attenuator in a signal generator?**
+An attenuator reduces the output amplitude in calibrated steps, usually in decibels.
+*Example: A -20 dB step reduces the output to one-tenth of its amplitude.*
+
+**Q13. Why is waveform purity important in a signal generator?**
+Distortion or harmonics in the output can give wrong test results.
+*Example: A sine wave with strong harmonics can make an amplifier look less linear than it is.*
+
+**Q14. What is a triangle wave generator?**
+A triangle wave generator produces a signal that rises and falls linearly.
+*Example: A triangle wave is often used as a sweep signal.*
+
+**Q15. What is the use of a signal generator in the laboratory?**
+It provides a known input to a circuit so that the circuit can be tested, measured, and calibrated.
+*Example: Injecting a known signal into a radio IF stage to check its gain.*
+
+---
+
+**Exam tip:** For 2-mark questions, write 2 to 3 clear lines with one example. Start with the definition, then add the example if there is space.
+
+The image you shared ends at Unit IV. If your syllabus has a Unit V, send that image and I'll create its 2-mark Q&A in the same format.

@@ -1,0 +1,317 @@
+# 2-Mark Q&A: Cellular & Mobile Communication
+
+*Each unit has 15 questions. Each answer is short enough for a 2-mark exam response, with a simple example.*
+
+## UNIT I: Cellular Systems
+
+**Q1. What is a limitation of the conventional mobile system?**
+Conventional systems use one high-power transmitter covering a large area, so they support only a few users and waste spectrum.
+*Example: A single tower in a city can serve only a few dozen simultaneous calls.*
+
+**Q2. What is a basic cellular mobile system?**
+It divides a service area into small cells, each served by a base station, so the same frequencies can be reused in distant cells.
+*Example: A city is split into hexagonal cells, each with its own tower.*
+
+**Q3. What are the first and second generation cellular systems?**
+1G was analog voice (such as AMPS), and 2G was digital voice with SMS (such as GSM and CDMA-IS95).
+*Example: Early GSM phones could send text messages but had slow data speeds.*
+
+**Q4. What are the third and fourth generation cellular systems?**
+3G added mobile internet and video calling, while 4G (LTE) gave much faster broadband data.
+*Example: Watching online videos smoothly on a phone uses 4G LTE.*
+
+**Q5. What is the operation of a cellular system?**
+A mobile connects to the nearest base station, which links the call to the switching center and then to the telephone network.
+*Example: When you move between cells during a call, the network hands the call to the next tower.*
+
+**Q6. What is fading in mobile radio environment?**
+Fading is the rapid variation in received signal strength caused by reflections, scattering, and movement of the mobile.
+*Example: A phone signal drops and returns while you walk between buildings.*
+
+**Q7. What is coherence bandwidth?**
+Coherence bandwidth is the frequency range over which the channel response is roughly constant.
+*Example: A narrow-band signal passes through the channel without much distortion if it is within the coherence bandwidth.*
+
+**Q8. What is Doppler spread?**
+Doppler spread is the spreading of a signal's frequency caused by the motion of the mobile or surroundings.
+*Example: A car moving fast at high speed experiences more Doppler spread than a pedestrian.*
+
+**Q9. What is frequency reuse?**
+Frequency reuse means using the same set of channels in cells that are far enough apart to avoid interference.
+*Example: Cell A and a cell three cells away can both use channel group 1.*
+
+**Q10. What is co-channel interference?**
+Co-channel interference is the interference caused when two cells using the same frequency channel are too close to each other.
+*Example: Two nearby towers using the same channel cause crossed voices in calls.*
+
+**Q11. What is the co-channel interference reduction factor?**
+It is the ratio of the cluster-distance to cell-radius (D/R), which determines how much co-channel interference is present.
+*Example: A larger D/R ratio gives less co-channel interference.*
+
+**Q12. What is the desired C/I in a normal omnidirectional antenna system?**
+The desired carrier-to-interference ratio (C/I) is about 18 dB for an omnidirectional antenna system, for acceptable voice quality.
+*Example: If the signal is 18 dB stronger than the interference, the call remains clear.*
+
+**Q13. What is trunking?**
+Trunking is the method of sharing a pool of channels among many users so that each call can use any free channel.
+*Example: 50 channels shared by 500 users, where each call grabs any free channel.*
+
+**Q14. What is grade of service?**
+Grade of service is the probability that a call is blocked or delayed because no channel is free during peak traffic.
+*Example: A grade of service of 0.02 means about 2 out of 100 calls may be blocked.*
+
+**Q15. What is a cluster in cellular design?**
+A cluster is a group of cells that together use the full set of available channels once.
+*Example: A 7-cell cluster uses all channel sets once, and then the pattern repeats.*
+
+## UNIT II: Co-Channel & Non-Co-Channel Interference
+
+**Q1. What is measurement of real-time co-channel interference?**
+It is measuring the interference level in an operating network by comparing received signal strength with interfering signals on the same channel.
+*Example: A drive test measures the signal and interference levels along a route.*
+
+**Q2. What is the design of an antenna system?**
+Antenna system design selects the antenna type, height, gain, and direction so that coverage is good and interference is low.
+*Example: A sectored antenna with three 120-degree sectors reduces interference in a cell.*
+
+**Q3. What are antenna parameters?**
+Important antenna parameters are gain, beamwidth, radiation pattern, polarization, and front-to-back ratio.
+*Example: A high-gain antenna sends more power in one direction, extending coverage there.*
+
+**Q4. What is the effect of antenna parameters on the system?**
+Higher gain increases coverage but can increase interference, while narrow beamwidth reduces interference in unwanted directions.
+*Example: A narrow-beam antenna pointed along a road reduces interference to nearby cells.*
+
+**Q5. What is diversity technique?**
+Diversity is a method of sending or receiving the same signal over multiple independent paths to reduce fading.
+*Example: Two receiving antennas placed apart pick up different signal levels, and the better one is used.*
+
+**Q6. What is space diversity?**
+Space diversity uses two or more antennas spaced apart so that they receive signals with independent fading.
+*Example: A base station with two antennas separated by several wavelengths.*
+
+**Q7. What is polarization diversity?**
+Polarization diversity uses antennas with different polarizations, such as vertical and horizontal, to receive uncorrelated signals.
+*Example: A mobile unit with one vertically and one horizontally polarized antenna.*
+
+**Q8. What is frequency diversity?**
+Frequency diversity sends the same information on two or more different frequencies to reduce fading.
+*Example: A signal sent on two carrier frequencies, where one may fade while the other is strong.*
+
+**Q9. What is time diversity?**
+Time diversity sends the same information at different times so that burst fading does not destroy all copies.
+*Example: Repeating a data packet after a short delay so a fade does not lose both copies.*
+
+**Q10. What is non-co-channel interference?**
+It is interference caused by signals from other channels, not from the same channel.
+*Example: A signal from a strong nearby channel leaks into your channel.*
+
+**Q11. What is adjacent channel interference?**
+Adjacent channel interference occurs when signals on neighbouring frequency channels overlap and interfere with each other.
+*Example: A strong signal on channel 10 spills into channel 11 and disturbs its calls.*
+
+**Q12. How can adjacent channel interference be reduced?**
+It can be reduced by using good filters, proper channel spacing, and careful frequency assignment.
+*Example: Leaving a guard band between two operators' channels.*
+
+**Q13. What is the purpose of sectoring for interference?**
+Sectoring divides a cell into sectors with directional antennas, which reduces the number of co-channel cells that interfere.
+*Example: A cell split into three 120-degree sectors.*
+
+**Q14. What is the effect of interference on call quality?**
+Interference causes noise, crosstalk, and dropped calls, which lower call quality.
+*Example: A user hears another conversation in the background during a call.*
+
+**Q15. Why is interference measurement important?**
+It helps engineers find problem areas and adjust frequencies or antennas to improve network performance.
+*Example: A drive test shows a weak zone, so the operator adds a tower or changes the antenna tilt.*
+
+## UNIT III: Frequency Management & Channel Assignment
+
+**Q1. What is numbering and grouping of channels?**
+Numbering gives each channel a unique number, and grouping organizes channels into sets for assignment to cells.
+*Example: Channels 1 to 21 are grouped into 7 sets of 3 channels each.*
+
+**Q2. What are setup and access channels?**
+Setup channels are used to set up a call, and access channels are used by mobiles to request service.
+*Example: A phone sends a service request on the access channel before a voice channel is allotted.*
+
+**Q3. What is a paging channel?**
+A paging channel is used by the base station to send incoming call alerts to mobile units.
+*Example: Your phone rings because the network sent an incoming call alert on the paging channel.*
+
+**Q4. How are channels assigned to cell sites?**
+Channels are assigned to cell sites based on the frequency reuse plan so that co-channel cells are kept far apart.
+*Example: Cell sites in a cluster each get a different channel set.*
+
+**Q5. How are channels assigned to mobile units?**
+The base station assigns an idle channel to a mobile unit when it makes or receives a call.
+*Example: When you dial a number, the system allots a free voice channel to your phone.*
+
+**Q6. What is channel sharing?**
+Channel sharing means allowing several cells or users to use a common pool of channels to improve utilization.
+*Example: Neighbouring cells share a pool of channels during peak hours.*
+
+**Q7. What is channel borrowing?**
+Channel borrowing means a congested cell temporarily takes free channels from a neighbouring cell.
+*Example: A busy cell borrows a channel from an empty neighbouring cell during rush hour.*
+
+**Q8. What is sectorization?**
+Sectorization divides a cell into sectors, each served by a directional antenna, to reduce interference and increase capacity.
+*Example: A three-sector cell uses three 120-degree antennas.*
+
+**Q9. What are overlaid cells?**
+Overlaid cells place a large macrocell over smaller microcells in the same area to handle different traffic levels.
+*Example: A macrocell covers a city while small cells handle the busy shopping area.*
+
+**Q10. What is fixed channel assignment?**
+In fixed channel assignment, each cell is permanently given a set of channels for its use.
+*Example: A cell always uses channels 1 to 3, regardless of the traffic in nearby cells.*
+
+**Q11. What is non-fixed channel assignment?**
+In non-fixed channel assignment, channels are allotted dynamically based on current demand and interference conditions.
+*Example: A cell gets whichever free channel is best at the moment, instead of a fixed one.*
+
+**Q12. What is the advantage of non-fixed channel assignment?**
+It handles changing traffic better and can reduce blocked calls compared with fixed assignment.
+*Example: During a sudden crowd event, extra channels are allotted to the affected cell.*
+
+**Q13. What is the disadvantage of fixed channel assignment?**
+A fixed assignment cannot adapt to changing traffic, so busy cells may block calls while nearby cells have free channels.
+*Example: A busy cell rejects calls while the neighbouring cell's channels stay idle.*
+
+**Q14. What is the role of a base station in channel management?**
+The base station monitors channel status, assigns free channels, and releases them when calls end.
+*Example: When a call ends, the base station marks that channel as free for the next user.*
+
+**Q15. What is the purpose of channel assignment?**
+It aims to use the limited spectrum efficiently while keeping interference low and call blocking minimal.
+*Example: Careful assignment lets a city serve more users with the same number of channels.*
+
+## UNIT IV: Handoffs
+
+**Q1. What is handoff?**
+Handoff is the process of transferring an ongoing call from one base station or channel to another as the mobile moves.
+*Example: A call continues smoothly while you drive from one cell to the next.*
+
+**Q2. What is handoff initiation?**
+Handoff is initiated when the received signal strength at the current base station drops below a set threshold.
+*Example: As you move away from a tower, the network switches your call to a nearer tower.*
+
+**Q3. What are the types of handoff?**
+Common types are hard handoff, soft handoff, forced handoff, and mobile-assisted handoff.
+*Example: In a soft handoff, the phone connects to two towers at the same time during the switch.*
+
+**Q4. What is a hard handoff?**
+In a hard handoff, the old connection is released before the new connection is made.
+*Example: A brief pause may be heard during a call when the connection switches.*
+
+**Q5. What is a soft handoff?**
+In a soft handoff, the new connection is made before the old one is released, so the call is not interrupted.
+*Example: CDMA networks use soft handoff so that calls are smooth between towers.*
+
+**Q6. What is delaying handoff?**
+Delaying handoff means postponing the handoff decision for a short time to avoid unnecessary switching.
+*Example: A phone waits a few seconds before switching, in case the signal recovers.*
+
+**Q7. What are the advantages of handoff?**
+Handoff keeps calls connected during movement, improves service quality, and allows the network to manage traffic.
+*Example: You can make a call while travelling on a highway without it dropping.*
+
+**Q8. What is power difference handoff?**
+It is a handoff triggered when the received power from a neighbouring base station is greater than the current one by a set margin.
+*Example: The phone switches to a nearby tower that is 6 dB stronger than the current one.*
+
+**Q9. What is forced handoff?**
+Forced handoff is a handoff done by the network to balance traffic or handle channel problems, not because of signal weakness.
+*Example: The network moves calls from a crowded cell to a less busy neighbour.*
+
+**Q10. What is mobile-assisted handoff?**
+In mobile-assisted handoff, the mobile measures signal strength from nearby base stations and reports the values to the network.
+*Example: The phone sends signal readings from three nearby towers to help the network choose the best one.*
+
+**Q11. What is the difference between intersystem and intrasystem handoff?**
+Intrasystem handoff happens within the same network, while intersystem handoff happens between two different networks or systems.
+*Example: Moving between two cells of the same operator is intrasystem; moving to another operator's network is intersystem.*
+
+**Q12. What is the difference between soft and hard handoff?**
+A soft handoff connects to the new cell before disconnecting the old one, while a hard handoff disconnects first.
+*Example: A soft handoff is smoother, but a hard handoff uses less network resource at a time.*
+
+**Q13. What is call drop rate?**
+Call drop rate is the percentage of established calls that end unexpectedly before the user hangs up.
+*Example: If 2 out of 100 calls drop, the drop rate is 2%.*
+
+**Q14. What causes call drops during handoff?**
+Call drops can happen due to weak signal, no free channel in the new cell, or delayed handoff.
+*Example: A call drops when you enter a cell where all channels are busy.*
+
+**Q15. What is power-based handoff?**
+Power-based handoff uses received signal power levels to decide when to switch the call to another base station.
+*Example: The call is switched when the new tower's signal becomes stronger than the current one.*
+
+## UNIT V: Multiple Access Schemes & Modern Systems
+
+**Q1. What is TDMA?**
+Time Division Multiple Access (TDMA) shares one frequency channel among users by giving each user a separate time slot.
+*Example: GSM uses TDMA, so eight users can share one carrier, each in its own time slot.*
+
+**Q2. What is FDMA?**
+Frequency Division Multiple Access (FDMA) gives each user a separate frequency channel.
+*Example: AMPS, the first-generation analog system, assigned each call its own frequency.*
+
+**Q3. What is CDMA?**
+Code Division Multiple Access (CDMA) lets all users share the same frequency and time, separating them by unique spreading codes.
+*Example: Many phones in one cell transmit at the same frequency, each using its own code.*
+
+**Q4. What is the main difference between TDMA, FDMA, and CDMA?**
+TDMA separates users by time, FDMA by frequency, and CDMA by code.
+*Example: In a classroom, TDMA is like taking turns to speak, FDMA is like each person using a different language, and CDMA is like speaking with a unique accent.*
+
+**Q5. What is MIMO?**
+MIMO (Multiple Input Multiple Output) uses multiple antennas at the transmitter and receiver to increase data rate and reliability.
+*Example: A 4x4 MIMO router sends four data streams at the same time.*
+
+**Q6. What are the principles of CDMA cellular systems?**
+CDMA spreads each signal over a wide band using a unique code, which allows many users and reduces interference.
+*Example: Several calls share the same band, and each receiver recovers its own call using its code.*
+
+**Q7. What is OFDM?**
+Orthogonal Frequency Division Multiplexing (OFDM) splits a high-speed data stream into many slow subcarriers that are orthogonal to each other.
+*Example: Wi-Fi and 4G LTE use OFDM to deliver fast data.*
+
+**Q8. What is OFDMA?**
+OFDMA (Orthogonal Frequency Division Multiple Access) allocates groups of OFDM subcarriers to different users at the same time.
+*Example: In 4G LTE, different users get different subcarrier groups in the same time slot.*
+
+**Q9. What are the basics of 4G LTE?**
+4G LTE uses OFDM for downlink, SC-FDMA for uplink, and MIMO to deliver high-speed broadband data.
+*Example: Streaming an HD video on a phone uses 4G LTE's high-speed data.*
+
+**Q10. What is the advantage of OFDM?**
+OFDM handles multipath fading well and uses the spectrum efficiently.
+*Example: Even if some subcarriers are weak, the rest still carry data.*
+
+**Q11. What is filtered OFDM?**
+Filtered OFDM applies a filter to each group of subcarriers to reduce out-of-band emissions and interference.
+*Example: A filter on each sub-band keeps its signal from leaking into neighbouring bands.*
+
+**Q12. What is FBMC?**
+Filter Bank Multicarrier (FBMC) is a multicarrier technique that uses well-shaped filters on each subcarrier to reduce interference.
+*Example: FBMC is considered for 5G because it leaks less signal into nearby frequencies.*
+
+**Q13. What is the difference between OFDM and FBMC?**
+OFDM uses a rectangular pulse with a cyclic prefix, while FBMC uses filtered pulses with lower out-of-band leakage.
+*Example: FBMC gives cleaner spectrum, but OFDM is simpler and widely used.*
+
+**Q14. What is 5G?**
+5G is the fifth generation of mobile networks, offering very high speed, low latency, and support for many connected devices.
+*Example: Downloading a full movie in seconds on a 5G phone.*
+
+**Q15. What are the main goals of 5G?**
+The main goals are enhanced mobile broadband, ultra-reliable low latency communication, and massive machine-type communication.
+*Example: Self-driving cars need low latency, while smart meters need massive device connectivity.*
+
+---
+
+**Exam tip:** For 2-mark questions, write 2 to 3 clear lines with one example. Start with the definition, then add the example if there is space.

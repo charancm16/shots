@@ -1,0 +1,244 @@
+# Deep Learning: 15 Questions per Unit with Simple Notes
+
+## UNIT I: Fundamentals of Deep Learning
+
+**Q1. What is Artificial Intelligence?**
+AI is the field of making machines perform tasks that normally need human intelligence, such as reasoning, learning, and decision-making. *Example:* A chess program that chooses its next move.
+
+**Q2. What is Machine Learning?**
+Machine Learning is a part of AI where a computer learns patterns from data instead of being given fixed rules. *Example:* A spam filter that learns from emails marked as spam or not spam.
+
+**Q3. What is Deep Learning?**
+Deep Learning is a part of Machine Learning that uses neural networks with many layers to learn features automatically from raw data. *Example:* Face unlock on a phone.
+
+**Q4. What is Probabilistic Modeling?**
+It uses probability to represent uncertainty and make predictions. *Example:* A Naive Bayes spam filter that estimates the probability that an email is spam based on its words.
+
+**Q5. What are Kernel Methods?**
+Kernel methods (like Support Vector Machines) map data into a higher-dimensional space so that a straight dividing line can separate patterns that were not separable before. *Example:* Separating red and blue dots arranged in concentric circles.
+
+**Q6. What is a Decision Tree?**
+A decision tree is a model that splits data step by step using feature conditions until it reaches a final answer. *Example:* Deciding whether to play tennis by checking "Is it sunny?" and "Is the humidity high?"
+
+**Q7. What is the difference between Random Forest and Gradient Boosting?**
+A Random Forest builds many trees independently on random samples and combines their votes. Gradient Boosting builds trees one after another, where each new tree corrects the errors of the previous ones. *Example:* Predicting house prices.
+
+**Q8. What are the four branches of Machine Learning?**
+They are supervised learning (learning from labeled data), unsupervised learning (finding patterns in unlabeled data), self-supervised learning (creating labels from the data itself), and reinforcement learning (learning from rewards and penalties). *Example:* Email classification, customer grouping, predicting a masked word in a sentence, and game playing.
+
+**Q9. What is Overfitting?**
+Overfitting happens when a model memorizes the training data, including its noise, so it performs well on training data but poorly on new data. *Example:* A student who memorizes old question papers but fails when the questions change.
+
+**Q10. What is Underfitting?**
+Underfitting happens when a model is too simple to capture the patterns in the data, so it performs poorly on both training and new data. *Example:* Fitting a straight line to clearly curved data.
+
+**Q11. How do you evaluate a Machine Learning model?**
+The data is split into training, validation, and test sets, and the model is judged on unseen test data using metrics like accuracy, precision, recall, and F1-score. *Example:* A model that gets 90% correct answers on the test set.
+
+**Q12. What is the difference between a parameter and a hyperparameter?**
+Parameters (like weights) are learned from data during training, while hyperparameters (like learning rate or tree depth) are set by the person before training. *Example:* The learning rate is a hyperparameter, and the weights it helps tune are parameters.
+
+**Q13. What is a Training Set, Validation Set, and Test Set?**
+The training set is used to fit the model, the validation set is used to tune its settings, and the test set is used once at the end to measure final performance. *Example:* Splitting 1000 images into 700 for training, 150 for validation, and 150 for testing.
+
+**Q14. What is Cross-Validation?**
+Cross-validation splits the data into several folds and trains the model multiple times, using a different fold for testing each time, to get a more reliable performance estimate. *Example:* 5-fold cross-validation on 500 samples.
+
+**Q15. What is Regularization?**
+Regularization adds a penalty for complex models to reduce overfitting. *Example:* L2 regularization shrinks large weights so the model does not depend too heavily on any one feature.
+
+---
+
+## UNIT II: Introducing Deep Learning
+
+**Q1. How does biological vision relate to machine vision?**
+The human visual system processes images in layers, from simple edges to complex objects. Convolutional neural networks copy this layered idea. *Example:* Edges are detected first, then shapes, then whole objects like a face.
+
+**Q2. How do humans and machines handle language differently?**
+Humans understand language through meaning and context, while machines convert words into numbers (vectors) so they can process them. *Example:* The words "king" and "queen" are stored as nearby number vectors.
+
+**Q3. What is an Artificial Neuron?**
+An artificial neuron takes inputs, multiplies each by a weight, adds a bias, and passes the result through an activation function. *Example:* Output = f(w₁x₁ + w₂x₂ + b).
+
+**Q4. What is an Activation Function?**
+An activation function adds non-linearity so the network can learn complex patterns. Common ones are ReLU, Sigmoid, and Tanh. *Example:* ReLU(x) = max(0, x), so ReLU(−3) = 0 and ReLU(4) = 4.
+
+**Q5. What is an Artificial Neural Network?**
+It is a network of connected neurons arranged in an input layer, one or more hidden layers, and an output layer. *Example:* A network that reads 28×28 pixel images and outputs a digit from 0 to 9.
+
+**Q6. What is a Loss Function?**
+A loss function measures how far the network's prediction is from the correct answer. *Example:* Mean Squared Error for regression and Cross-Entropy for classification.
+
+**Q7. What is Gradient Descent?**
+Gradient descent updates the weights step by step in the direction that reduces the loss. *Example:* Walking downhill to reach the lowest point of a valley.
+
+**Q8. What is Backpropagation?**
+Backpropagation calculates how much each weight contributed to the error by moving the error backward through the network, and then updates the weights. *Example:* If the output is too high, the weights that pushed it up are reduced.
+
+**Q9. What is the Vanishing Gradient Problem?**
+In very deep networks, gradients become extremely small as they pass backward, so early layers learn very slowly. It is reduced by using ReLU and Batch Normalization. *Example:* Repeatedly multiplying 0.1 by itself across many layers gives a tiny number.
+
+**Q10. How can Deep Networks be improved?**
+Common methods include Dropout, Batch Normalization, regularization, better optimizers like Adam, and tuning the learning rate. *Example:* Dropout randomly switches off some neurons during training so the network does not depend on any single neuron.
+
+**Q11. What is a Learning Rate?**
+The learning rate controls how big each weight update is during gradient descent. Too large and training becomes unstable; too small and training becomes very slow. *Example:* A learning rate of 0.01 takes smaller steps than 0.5.
+
+**Q12. What is Batch Normalization?**
+Batch Normalization normalizes the inputs of a layer across each mini-batch, which stabilizes and speeds up training. *Example:* Keeping layer outputs around mean 0 and variance 1 during training.
+
+**Q13. What is Dropout?**
+Dropout randomly turns off a fraction of neurons during each training step to prevent overfitting. *Example:* With dropout rate 0.5, half the neurons are switched off in each step.
+
+**Q14. What is an Optimizer?**
+An optimizer is the algorithm that updates the weights to reduce the loss, such as SGD or Adam. *Example:* Adam adapts the learning rate for each weight automatically.
+
+**Q15. What is a Hidden Layer?**
+A hidden layer is a layer between the input and output layers that learns intermediate features. *Example:* In a digit classifier, a hidden layer may learn to detect curves and strokes.
+
+---
+
+## UNIT III: Neural Networks and Keras
+
+**Q1. What is the Anatomy of a Neural Network?**
+A neural network has layers, weights and biases, an activation function, a loss function, and an optimizer. *Example:* A three-layer network for classifying handwritten digits.
+
+**Q2. What is Keras?**
+Keras is a high-level deep learning API that makes it easy to build and train models with only a few lines of code. *Example:* `model = Sequential()` followed by `model.add(Dense(64, activation='relu'))`.
+
+**Q3. How are Keras, TensorFlow, Theano, and CNTK related?**
+Keras is the user-friendly interface, while TensorFlow, Theano, and CNTK are backend engines that do the actual computation. TensorFlow is developed by Google, and Theano and CNTK are older backends that are no longer actively developed. *Example:* Keras running on a TensorFlow backend.
+
+**Q4. What is needed to set up a Deep Learning Workstation?**
+You need Python, a deep learning library like TensorFlow with Keras, and optionally a GPU with CUDA drivers for faster training. *Example:* Using Anaconda on a local PC, or Google Colab, which provides free GPUs online.
+
+**Q5. What is Binary Classification?**
+Binary classification predicts one of two classes, usually with a single output neuron using Sigmoid and binary cross-entropy loss. *Example:* Classifying IMDB movie reviews as positive or negative.
+
+**Q6. What is Multiclass Classification?**
+Multiclass classification predicts one class out of many, usually using a Softmax output layer and categorical cross-entropy loss. *Example:* Classifying Reuters newswires into 46 topics.
+
+**Q7. What is the Softmax function?**
+Softmax converts the output scores into probabilities that add up to 1. *Example:* Outputs [2.0, 1.0, 0.1] become roughly [0.66, 0.24, 0.10].
+
+**Q8. What is one-hot encoding?**
+One-hot encoding converts a class label into a vector with a 1 at the correct class position and 0 elsewhere. *Example:* Class 2 out of 4 classes becomes [0, 0, 1, 0].
+
+**Q9. What are Epoch and Batch Size?**
+An epoch is one full pass through the training data. Batch size is the number of samples used before the weights are updated. *Example:* 1000 samples with batch size 100 means 10 weight updates per epoch.
+
+**Q10. What does compiling a Keras model mean?**
+Compiling sets the optimizer, loss function, and evaluation metrics before training. *Example:* `model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])`.
+
+**Q11. What is the Dense layer in Keras?**
+A Dense layer is a fully connected layer where every input neuron connects to every output neuron. *Example:* `Dense(10, activation='softmax')` for a 10-class output.
+
+**Q12. What is the role of the model.fit() function?**
+`model.fit()` trains the model on the training data for a given number of epochs and batch size. *Example:* `model.fit(x_train, y_train, epochs=10, batch_size=32)`.
+
+**Q13. What is the IMDB dataset?**
+The IMDB dataset contains 50,000 movie reviews labeled as positive or negative, commonly used for binary text classification. *Example:* Training a model to predict whether a review is good or bad.
+
+**Q14. What is the Reuters dataset?**
+The Reuters dataset contains short newswires labeled with one of 46 topics, commonly used for multiclass classification. *Example:* Predicting whether a news article is about "grain" or "earnings."
+
+**Q15. Why do we use a validation set while training?**
+A validation set checks how well the model generalizes during training, so you can detect overfitting before using the test set. *Example:* Watching validation accuracy stop improving while training accuracy keeps rising.
+
+---
+
+## UNIT IV: Convolutional Neural Networks, RNNs, and PyTorch
+
+**Q1. What is Representation Learning?**
+Representation learning means the network automatically discovers useful features from raw data, instead of a human designing them. *Example:* A CNN learns to detect edges and textures in images without being told to.
+
+**Q2. What is a Convolutional Layer?**
+A convolutional layer slides small filters (kernels) across the input to detect local features. *Example:* A 3×3 filter that highlights vertical edges in an image.
+
+**Q3. What is Multichannel Convolution?**
+When the input has multiple channels, such as the red, green, and blue channels of an image, the filter has the same depth and its results are summed into one output feature map. *Example:* A 3×3×3 filter applied to an RGB image.
+
+**Q4. What is Pooling?**
+Pooling reduces the size of feature maps while keeping the most important information. Max pooling keeps the largest value in each window. *Example:* A 2×2 max pooling window that takes the maximum of four values.
+
+**Q5. What is a Recurrent Neural Network (RNN)?**
+An RNN is a network with loops that carries information from previous steps, which makes it suitable for sequences. *Example:* Predicting the next word in "I am going to the ___."
+
+**Q6. Why do RNNs struggle with long sequences?**
+RNNs suffer from vanishing gradients, so they forget information from far back in the sequence. LSTM and GRU architectures were created to solve this. *Example:* Remembering the subject of a long sentence until the verb appears.
+
+**Q7. What are PyTorch Tensors?**
+Tensors are multi-dimensional arrays similar to NumPy arrays, but they can run on GPUs and support automatic differentiation. *Example:* `x = torch.tensor([1, 2, 3])`.
+
+**Q8. How is a model built in PyTorch?**
+A model is written as a class that inherits from `nn.Module`, defines layers in `__init__`, and defines the forward pass in `forward()`. *Example:* A class with `self.fc = nn.Linear(10, 1)` and a `forward` method that applies it.
+
+**Q9. How is a CNN built in PyTorch?**
+A CNN uses `nn.Conv2d` for convolution, `nn.MaxPool2d` for pooling, and `nn.Linear` for the final classification layer. *Example:* Conv → ReLU → MaxPool → Linear.
+
+**Q10. What is the difference between CNN and RNN?**
+CNNs are designed for spatial data like images and look at local patterns, while RNNs are designed for sequential data like text or time series and remember previous steps. *Example:* CNN for image classification, RNN for speech recognition.
+
+**Q11. What is a Stride in a convolution?**
+Stride is the number of pixels the filter moves at each step. A larger stride produces a smaller output. *Example:* A stride of 2 halves the width and height of the output roughly.
+
+**Q12. What is Padding in a convolution?**
+Padding adds extra border pixels around the input so the output keeps the same size or so edge pixels are not ignored. *Example:* Adding a 1-pixel border of zeros around a 5×5 image before a 3×3 convolution.
+
+**Q13. What is an LSTM?**
+An LSTM is a type of RNN that uses gates to decide what to remember, forget, and output, which helps it handle long sequences. *Example:* Remembering a character's name across a long story.
+
+**Q14. What is the difference between torch.tensor and NumPy arrays?**
+Both store multi-dimensional data, but torch tensors can be moved to a GPU and can track gradients for training. *Example:* `x.to('cuda')` moves a tensor to the GPU.
+
+**Q15. What is the purpose of an Optimizer in PyTorch?**
+The optimizer updates the model's parameters after each backward pass using the computed gradients. *Example:* `optimizer = torch.optim.Adam(model.parameters(), lr=0.001)`.
+
+---
+
+## UNIT V: Interactive Applications and Deep Learning Research
+
+**Q1. What are the main applications of Machine Vision?**
+Machine vision enables computers to interpret images, including object detection, face recognition, and medical image analysis. *Example:* Detecting tumors in X-ray images.
+
+**Q2. What is Natural Language Processing (NLP)?**
+NLP enables computers to understand, analyze, and generate human language. *Example:* Google Translate, sentiment analysis, and chatbots.
+
+**Q3. What is a Generative Adversarial Network (GAN)?**
+A GAN has two networks: a generator that creates fake data, and a discriminator that tries to tell real data from fake. They compete until the generator produces realistic output. *Example:* Generating realistic human faces that do not belong to any real person.
+
+**Q4. What is Deep Reinforcement Learning?**
+It combines deep neural networks with reinforcement learning, where an agent learns by trial and error to maximize rewards. *Example:* AlphaGo learning to play Go.
+
+**Q5. What is an Autoencoder?**
+An autoencoder has an encoder that compresses the input into a smaller code and a decoder that reconstructs the input from that code. It is used for compression, denoising, and dimensionality reduction. *Example:* Removing noise from a blurry image.
+
+**Q6. What is a Deep Generative Model?**
+A deep generative model learns the probability distribution of the training data so it can create new samples similar to it. *Example:* Generating new handwritten digits.
+
+**Q7. What is a Boltzmann Machine?**
+A Boltzmann Machine is a stochastic network of connected binary units that learns a probability distribution using an energy-based model. *Example:* Modeling patterns in binary data.
+
+**Q8. What is a Restricted Boltzmann Machine (RBM)?**
+An RBM is a Boltzmann Machine with no connections within the visible layer or within the hidden layer, which makes it faster to train using contrastive divergence. *Example:* Recommending movies based on user ratings.
+
+**Q9. What is a Deep Belief Network (DBN)?**
+A DBN is a stack of RBMs trained layer by layer, often used to pre-train deep networks. *Example:* Pre-training a deep network before fine-tuning it for classification.
+
+**Q10. What is the Discriminator in a GAN?**
+The discriminator is the network that classifies inputs as real (from the dataset) or fake (from the generator). *Example:* Outputting a probability near 1 for a real photo and near 0 for a fake one.
+
+**Q11. What is the Generator in a GAN?**
+The generator takes random noise as input and produces synthetic data that tries to fool the discriminator. *Example:* Turning random noise vectors into face-like images.
+
+**Q12. What is Reward in Reinforcement Learning?**
+A reward is the feedback signal an agent receives after an action, telling it how good that action was. *Example:* +1 for winning a game point and −1 for losing one.
+
+**Q13. What is a Policy in Reinforcement Learning?**
+A policy is the strategy the agent follows to choose actions in each state. *Example:* A game agent that always moves left when an obstacle is on the right.
+
+**Q14. What is Contrastive Divergence?**
+Contrastive divergence is a fast approximate training method used for RBMs. It adjusts weights based on the difference between data-driven and model-generated samples. *Example:* Running a few Gibbs sampling steps to train an RBM quickly.
+
+**Q15. What is Unsupervised Pre-training?**
+Unsupervised pre-training trains layers on unlabeled data first, so their weights start from useful values before supervised fine-tuning. *Example:* Training stacked RBMs before fine-tuning a DBN for classification.

@@ -1,0 +1,257 @@
+# 2-Mark Q&A: Object-Oriented Software Engineering & Design Patterns
+
+*Each unit has 15 questions. Each answer is short enough for a 2-mark exam response, with a simple example.*
+
+**Note:** The file `1794072322425_unit_3.pdf` did not load, so Unit 3 is not included. Upload it again and I'll create its Q&A.
+
+## UNIT 1: Design Patterns (Introduction)
+
+**Q1. What is a design pattern?**
+A design pattern is a named, reusable solution to a recurring design problem in a given context.
+*Example: The Observer pattern is a standard solution for notifying dependent objects when one object changes.*
+
+**Q2. What are the four essential elements of a design pattern?**
+They are the pattern name, the problem, the solution, and the consequences.
+*Example: The name "Observer" lets designers discuss the idea quickly, while the consequences show its trade-offs.*
+
+**Q3. Why are design patterns useful?**
+They speed up design, improve communication among developers, and make systems more flexible and maintainable.
+*Example: A team says "use Strategy here" and everyone understands the design without a long explanation.*
+
+**Q4. Where did the idea of design patterns come from?**
+The idea came from Christopher Alexander's architectural patterns, which describe proven solutions to building design problems.
+*Example: A proven layout for a room is reused in many buildings; similarly, a proven class structure is reused in many programs.*
+
+**Q5. What is the Observer pattern in the MVC context?**
+The model notifies its views whenever its data changes, so the views stay decoupled from the model.
+*Example: A spreadsheet chart updates automatically when the numbers in the table change.*
+
+**Q6. What is the Composite pattern in the MVC context?**
+Views can contain nested subviews, so individual and grouped views are treated in the same way.
+*Example: A window contains panels, and each panel contains buttons; all are drawn using the same method.*
+
+**Q7. What is the Strategy pattern in the MVC context?**
+The controller encapsulates the response algorithm for user input, and this algorithm can be swapped at run time.
+*Example: A drawing tool's mouse behaviour can switch from "draw line" to "select" without changing the rest of the program.*
+
+**Q8. What are the three purpose categories of design patterns?**
+The categories are creational, structural, and behavioral.
+*Example: Singleton is creational, Adapter is structural, and Observer is behavioral.*
+
+**Q9. What is the difference between class scope and object scope patterns?**
+Class-scope patterns deal with relationships set at compile time through inheritance. Object-scope patterns deal with relationships among objects at run time.
+*Example: Adapter (class) uses inheritance, while Adapter (object) uses composition.*
+
+**Q10. Name two creational patterns.**
+Factory Method and Singleton are creational patterns. Others include Abstract Factory, Builder, and Prototype.
+*Example: Singleton ensures that only one logger object exists in the application.*
+
+**Q11. What does the Decorator pattern do?**
+It adds responsibilities to an object dynamically, without changing its class.
+*Example: A coffee object is wrapped with a milk decorator and a sugar decorator to add their costs.*
+
+**Q12. What does the Command pattern do?**
+It encapsulates a request as an object, so the request can be executed, queued, logged, or undone.
+*Example: Each drawn line is stored as a LineCommand object that can be undone later.*
+
+**Q13. What does "program to an interface, not an implementation" mean?**
+It means code should depend on abstract types or interfaces rather than on concrete classes.
+*Example: Writing `List items = new ArrayList();` lets you switch to `LinkedList` later with little change.*
+
+**Q14. Why is composition preferred over inheritance?**
+Composition is decided at run time and gives looser coupling and more flexibility, while inheritance is fixed at compile time.
+*Example: A car can be given a GPS module by composition, instead of creating a new subclass for every combination of features.*
+
+**Q15. What is the difference between a design pattern and a framework?**
+A design pattern is an abstract idea, while a framework is concrete, executable code for a specific domain.
+*Example: Observer is a pattern, but a GUI toolkit that uses it internally is a framework.*
+
+## UNIT 2: Object-Oriented Analysis (Conceptual Classes & Relationships)
+
+**Q1. What is the core question of the analysis phase?**
+The core question is "What should the system do?" It focuses on the required functionality, not on how it will be built.
+*Example: In a library system, analysis asks what issuing a book must achieve, not which database table stores it.*
+
+**Q2. What is a use case?**
+A use case is a narrative describing how an actor interacts with the system to complete a process.
+*Example: "Register New Member" describes how a clerk enters a customer's details and receives an ID.*
+
+**Q3. What is an actor?**
+An actor is an external agent that interacts with the system, such as a person or another system.
+*Example: Library staff (the clerk) is the actor in the book checkout use case.*
+
+**Q4. What are functional requirements?**
+Functional requirements describe the interactions between the system, its users, and other systems.
+*Example: "The system must record a book issue and display its due date."*
+
+**Q5. What are non-functional requirements?**
+Non-functional requirements describe qualities and constraints such as response time, usability, accuracy, budget, and deadlines.
+*Example: "Member registration must complete within 2 seconds."*
+
+**Q6. What is a conceptual class?**
+A conceptual class is a class that represents a real-world concept in the problem domain.
+*Example: Member, Book, and Library are conceptual classes in the library system.*
+
+**Q7. What is noun analysis?**
+Noun analysis extracts nouns from use cases, removes synonyms and attributes, and keeps the meaningful entities as classes.
+*Example: "Customer" and "user" are both synonyms for Member, so only Member is kept as a class.*
+
+**Q8. What is a business rule?**
+A business rule is a constraint or derived fact that controls how the system behaves.
+*Example: Rule 1 says the due date is one month from the issue date.*
+
+**Q9. What is the difference between static and dynamic associations?**
+Static associations are permanent relationships, while dynamic associations change through transactions.
+*Example: Library maintains a collection of Members is static, while Member borrows Book is dynamic.*
+
+**Q10. What is an association class?**
+An association class stores data that belongs to a relationship between two classes.
+*Example: The Borrows association class holds the dueDate of each borrowed book.*
+
+**Q11. What is domain analysis?**
+Domain analysis studies related systems in a domain to find common and variable features so they can be reused.
+*Example: Studying several library systems to find shared concepts such as loans, holds, and fines.*
+
+**Q12. Why define conceptual classes?**
+They help designers decide which classes to build, reveal missing details, and reduce errors through careful examination.
+*Example: Drawing the Borrows association showed that the system had no limit on the number of books a member can borrow.*
+
+**Q13. What is functional cohesion in use case writing?**
+A use case should encapsulate a single service the system provides.
+*Example: "Issue Book" is one use case, while "Issue and Register Member" would mix two services.*
+
+**Q14. What is actor coverage?**
+Every actor must take part in at least one use case, and every use case must have at least one actor.
+*Example: If the clerk appears in no use case, the analysis has missed a required interaction.*
+
+**Q15. Why are requirements considered a contract?**
+The requirements document is an agreement between users and developers, so errors in it are costly to fix after implementation.
+*Example: If the client expected a fine calculation that was never specified, the project must be reworked later.*
+
+## UNIT 4: Interactive Systems & MVC Architecture
+
+**Q1. What is the MVC pattern?**
+MVC divides an interactive application into three parts: Model (data), View (presentation), and Controller (input and response).
+*Example: In a drawing program, the shapes are the model, the screen is the view, and the mouse handling is the controller.*
+
+**Q2. What is the role of the Model?**
+The Model stores the application data and state, and notifies observers when the data changes.
+*Example: A Book object stores its title, author, and copy count.*
+
+**Q3. What is the role of the View?**
+The View displays the model's data and captures all user input.
+*Example: The window that shows the list of books and the mouse click on a "Create Line" button both belong to the View.*
+
+**Q4. What is the role of the Controller?**
+The Controller decides what happens when input arrives and updates the model accordingly.
+*Example: When the user clicks the second point, the Controller adds a line to the model.*
+
+**Q5. How does the Subject-Observer relationship work in MVC?**
+The Model is the Subject and keeps references to its Views, which are the Observers. When data changes, the Model notifies all Views automatically.
+*Example: Changing a book's status updates the catalogue view and the staff view at the same time.*
+
+**Q6. What are the main benefits of MVC?**
+MVC gives high cohesion and low coupling, so parts can be changed, reused, and developed in parallel.
+*Example: A new chart view can be added without changing the data model.*
+
+**Q7. What is the rule of thumb for deciding View vs Controller?**
+If the logic depends on how the UI is implemented, it belongs in the View. If it depends on what the system does, it belongs in the Controller.
+*Example: Colour and font selection go in the View; deciding how many points a line needs goes in the Controller.*
+
+**Q8. What is the Bridge pattern?**
+The Bridge pattern decouples an abstraction from its implementation so that the two can vary independently.
+*Example: Shapes (Line, Circle, Label) can vary separately from UI toolkits (SwingUI, HardUI, EasyUI).*
+
+**Q9. What is the class explosion problem?**
+Using inheritance alone for every combination of shape and UI creates a multiplicative number of classes.
+*Example: 3 shapes × 3 UIs require 9 concrete classes, and adding one more UI adds 3 more.*
+
+**Q10. How does Bridge reduce the number of classes?**
+Bridge reduces the count from the product of two hierarchies to their sum.
+*Example: 3 item types + 3 UI types = 6 classes, instead of 9.*
+
+**Q11. What is the Command pattern in the drawing program?**
+Each user action is stored as a command object that knows how to execute, undo, and redo itself.
+*Example: A LineCommand object stores the two endpoints and reverses the line when undo is requested.*
+
+**Q12. What is the Composite pattern in the drawing program?**
+A CompoundItem holds a list of child items and is treated like any other item when rendered.
+*Example: The user selects three shapes and clicks "Combine," which creates one CompoundItem containing them.*
+
+**Q13. Why is undo difficult to implement?**
+Undo needs a stack for multiple levels, and undo itself must be reversible. Some operations, such as printing, cannot be undone.
+*Example: After "Print file," there is no way to take back the printed page.*
+
+**Q14. What is an incomplete command?**
+An incomplete command is one that has started but not finished, such as a line with only its first point.
+*Example: The user clicks "Create Line" and places one point. The command's end() returns false, so it is not added to the undo stack.*
+
+**Q15. What are the three levels of patterns?**
+The three levels are architectural patterns, design patterns, and idioms.
+*Example: MVC is architectural, Command is a design pattern, and swapping two variables with `temp = a; a = b; b = temp;` is an idiom.*
+
+## UNIT 5: Distributed Objects (Java RMI & Web-Based Systems)
+
+**Q1. What is a distributed system?**
+A distributed system is an application that runs across a network of interconnected computers rather than on a single machine.
+*Example: A bank's branches in different cities connected to one central system.*
+
+**Q2. What are the advantages of distributed systems?**
+They are economical, reliable, scalable, and allow shared resources.
+*Example: If one server fails, other servers can keep the service running.*
+
+**Q3. What are the main challenges of distributed computing?**
+The challenges are software complexity, slow data access due to network latency, and security risks.
+*Example: Sending customer data across the internet must be protected from theft.*
+
+**Q4. What is client/server architecture?**
+In client/server architecture, clients send requests to a server, which processes them and returns results.
+*Example: A browser sends a request to a web server and displays the response.*
+
+**Q5. What is the JVM problem?**
+Objects in different JVMs cannot directly access each other, and memory addresses are meaningless across JVM boundaries.
+*Example: Address A3 in JVM 2 points to nothing useful inside JVM 1.*
+
+**Q6. What is Java RMI?**
+Java RMI (Remote Method Invocation) lets a client call methods on objects that run in another JVM, using proxies.
+*Example: A client calls `book.getTitle()` on a Book object that actually runs on a server.*
+
+**Q7. What is a stub?**
+A stub is a client-side proxy that stands in for the remote object and forwards method calls over the network.
+*Example: Book_Stub.class is the stub that the client uses to call the remote Book object.*
+
+**Q8. What is marshalling and demarshalling?**
+Marshalling packs the object identity, method name, and parameters into a message. Demarshalling unpacks that message at the server.
+*Example: The client's call `getAuthor()` is packaged, sent, and unpacked before the server executes it.*
+
+**Q9. What are the rules for a remote interface?**
+A remote interface must extend `java.rmi.Remote`, and every method must declare `throws RemoteException`.
+*Example: `BookInterface extends Remote` with `getTitle() throws RemoteException`.*
+
+**Q10. Why must remote methods throw RemoteException?**
+Remote calls can fail because of a server crash or a network outage, and RMI reports these failures using this exception.
+*Example: If the network drops during `getTitle()`, the client receives a RemoteException instead of a wrong answer.*
+
+**Q11. What are the requirements for a remote class?**
+The class must extend UnicastRemoteObject, implement the remote interface, and implement Serializable.
+*Example: `public class Book extends UnicastRemoteObject implements BookInterface, Serializable`.*
+
+**Q12. What does the rmic compiler do?**
+The rmic compiler generates the stub class that the client uses for remote calls.
+*Example: Running `rmic Book` produces `Book_Stub.class`.*
+
+**Q13. How does a server make a remote object available?**
+The server creates the object and registers it with `Naming.rebind()`, and the client finds it with `Naming.lookup()`.
+*Example: The server binds a Book under a name, and the client uses `Naming.lookup(name)` to get a reference to it.*
+
+**Q14. What is the difference between passing by reference and by value in RMI?**
+Remote objects are passed by reference, so all clients share one instance. Non-remote objects are passed by value as a serialized copy, so changes stay local.
+*Example: If Client 1 calls `setA(5)` on a remote object, Client 2 sees the new value. A copied object changed by Client 1 is not seen by Client 2.*
+
+**Q15. What is the web-based alternative to RMI?**
+The web-based approach uses a browser to send encoded text requests over HTTP to a server, which returns HTML using servlets.
+*Example: Submitting a form with `method="post"` invokes a servlet's `doPost()` method, which returns a result page.*
+
+---
+
+**Exam tip:** For 2-mark questions, write 2 to 3 clear lines with one example. Start with the definition, then add the example if there is space.
